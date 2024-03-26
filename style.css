@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+ .container{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+ }   
+ .accordion-body{
+    background-color: rgb(235, 152, 43);
+ }
+}
+
+.accordion{
+    max-width: 600px !important;
+    margin: 50px auto;
+    box-shadow:  rgba(110, 130, 208, .18) !important;
+}
+
+.accordion-button{
+    background-color: #01645d !important;
+    color: #fff !important;
+    position: relative;
+    box-shadow: none !important;
+    
+
+}
+
+
+.accordion-button:hover{
+    background: #25aca3 !important;
+}
+
+.accordion-button::after{
+    content: "";
+    border-radius: 3px;
+    transition: .5s !important;
+    
+}
+
+
+
